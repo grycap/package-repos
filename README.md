@@ -7,23 +7,23 @@ GRyCAP Ubuntu and RHEL packages repository
 
 Import repository key:
 ```sh
-rpm --import https://raw.githubusercontent.com/grycap/package-repos/refs/heads/main/centos/keyFile
+rpm --import https://grycap.github.io/package-repos/centos/keyFile
 ```
 
 Add repository file:
 ```sh
-wget https://raw.githubusercontent.com/grycap/package-repos/refs/heads/main/centos/10/grycap.repo -O /etc/yum.repos.d/grycap.repo
+wget https://grycap.github.io/package-repos/centos/10/grycap.repo -O /etc/yum.repos.d/grycap.repo
 ```
 
 ## Ubuntu
 
 Import repository key:
 ```sh
-wget https://raw.githubusercontent.com/grycap/package-repos/refs/heads/main/ubuntu/keyFile -O /etc/apt/trusted.gpg.d/grycap.asc
+wget https://grycap.github.io/package-repos/ubuntu/keyFile -O /etc/apt/trusted.gpg.d/grycap.asc
 ```
 
 Install repository list file (use 20, 22 or 24 version number):
 ```sh
-wget https://raw.githubusercontent.com/grycap/package-repos/refs/heads/main/ubuntu/grycap-ubuntu24.list -O /etc/apt/sources.list.d/grycap.list
+wget https://grycap.github.io/package-repos/ubuntu/grycap-ubuntu24.list -O /etc/apt/sources.list.d/grycap.list
 ```
 
