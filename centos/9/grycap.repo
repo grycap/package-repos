@@ -1,0 +1,7 @@
+[grycap]
+name=GRyCAP
+baseurl=https://grycap.github.io/package-repos/centos/9
+enabled=1
+gpgcheck=1
+# To use priorities you must have yum-priorities installed
+priority=50

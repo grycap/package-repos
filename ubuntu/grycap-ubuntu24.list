@@ -1,0 +1,2 @@
+# GRyCAP Repo
+deb [arch=amd64]  https://grycap.github.io/package-repos/ubuntu/ noble main

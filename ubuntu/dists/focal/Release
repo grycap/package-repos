@@ -1,0 +1,17 @@
+Date: Thu, 14 Dec 2023 15:37:05 UTC
+MD5Sum:
+ 022684c4109859c5f9e821f6b744b9b1               36 Release
+ 28d2bd67b392e08c24ad3b28714fd62f            30941 main/binary-amd64/Packages
+ 62f3d6a608598575be7bf8be9a0e7861             8728 main/binary-amd64/Packages.gz
+SHA1:
+ bab99f93f5cc6fcf8d36dc3f111f98fbc16a7171               36 Release
+ 2dcce7db47cd5026e52881f9e832623e98a7f3a0            30941 main/binary-amd64/Packages
+ 7fe4c011a651591be5027cb3fa5bdf21c9419583             8728 main/binary-amd64/Packages.gz
+SHA256:
+ ce2d933b1171e78e293756c149caa5247a837257418f0648c5a586c45dd7f7df               36 Release
+ 3e9c60c7e1614c7129cd40b62861bda829d233f7ce8c0d72ccd1fecb9e140169            30941 main/binary-amd64/Packages
+ 96da4e1891d879a9b0e4958329cfb53e6ddbde0253b45ac44a44cbf27fc58454             8728 main/binary-amd64/Packages.gz
+SHA512:
+ 323ad5ff046daf50ebdcd613a8ca5857a760afebecf967b54d23dd16c2fa77ca08518a528de616753fe58f408262231048a7737a8847976e1f0328c8a20fd534               36 Release
+ ad1eae801b2cc08d782652240ec2f7486a8b45169b4159661be360c9deafb44ff6dd87f6638837ee39d124703b8ff116ea407d703e35dade125af91994bd6082            30941 main/binary-amd64/Packages
+ 6c9e92693348d65f15327fe577afa56f48ec3434183c46b3f0488b6ceffef479041211504d57f7fc0805d8d3837ebc6f86e8ba4bd9b0169c291844c7dc3bd043             8728 main/binary-amd64/Packages.gz
