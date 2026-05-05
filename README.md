@@ -22,7 +22,7 @@ Import repository key:
 wget https://grycap.github.io/package-repos/ubuntu/keyFile -O /etc/apt/trusted.gpg.d/grycap.asc
 ```
 
-Install repository list file (use 20, 22 or 24 version number):
+Install repository list file (use 20, 22, 24 or 26 version number):
 ```sh
 wget https://grycap.github.io/package-repos/ubuntu/grycap-ubuntu24.list -O /etc/apt/sources.list.d/grycap.list
 ```

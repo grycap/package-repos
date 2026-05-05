@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Tue, 05 May 2026 09:31:36 +0000
+MD5Sum:
+ 8a5eac382e1174e1ab19c787684809b8               38 Release
+ cadd4db623e68a1bd37808304f1378e3            15512 main/binary-amd64/Packages
+ 633526595d52a4b94f8ff3995978296b             5329 main/binary-amd64/Packages.gz
+SHA1:
+ d04613dcdf6718cf7606ca1d190d8a50390ded46               38 Release
+ 8b3e132fb519a308224b601d54da12b4ea28b8fe            15512 main/binary-amd64/Packages
+ 15b263f174946d3aa2f9c3c4bc51fd0e6ddcfae2             5329 main/binary-amd64/Packages.gz
+SHA256:
+ 93d91f922d9f312cbd950f0314ff79ec20ed2ba2421adc64be65a50ed53b9e9b               38 Release
+ f19d0a895ee2968f8ac1f097dafa081d4f5eb31c6e581036c98e3f9cbb2e8027            15512 main/binary-amd64/Packages
+ af2838e2ef5285a0b240809eaa5e34cd3581e60a1bef98cebcec322261c776f6             5329 main/binary-amd64/Packages.gz
+SHA512:
+ 9a9249c38307e17549e4537c85852e09f37b161e0f72a1c2cbc2856da108ef35db5f138e07ddac0a4f43377bb13a31544870fe7f5a550dc5e3d01c395f217553               38 Release
+ 6a340df05e70df7fb375fdc507a3777cb5772f31d288b97496ecdb48c1cebc3b5bae56cd5ea796e07d80d7994ca562e90cdf8d459299770ec59b34a0a6eba412            15512 main/binary-amd64/Packages
+ e0e6d4ed66ab9b39e3d9d4ea5b9b88c85fd74e422280aeab03dd14493568e73f047a8cbd153d153ecda569548341cb1678b84fe87a275c253603f2ea80016f70             5329 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEUDBteJbbU+ZLURUFiqJ6/xnFRC0FAmn5uPsACgkQiqJ6/xnF
+RC0pvhAAkqiDae+vZdZgeGAjFenZMzYPt3oKYL2jWrgREy73e0JjDHj/bCTmbvwH
+LrqZsPrqkwGp20OtOlCQ5yqU83VQi1zXXUhrMBdALpNF/KyIZKkbTL00LTzLQNoX
+VNyWpjpnIlpuiWLEyu+FSK7uBEdi+4nlvRqspHnLlxL0wYlSkN235R9W2coun12S
+pmbeeDITsGjTucQxuROeb64hg1Ye4h+fwBLwq+lGxT3zuCAuS9WV+wGOoT2+ooVH
+yWpEpUKHr34eFnLNOkbHpk3F8SzmYRqlp4E3JmW7hom2GjUJnrhfjZt2AFh1k0V6
+iKWgtDh0IQGYr86hZxWD/FY5faj8rxqVbD16FEcgmJEyjo0gSiYHkvWZ4HkDSV0U
+3YoBG+emJEECAzPcuXYUOT6UbzhaVCc8QyZdC6a8VM1vryk286cZEdvuA/Iet5mV
+e0BYn32Gv2tVpl/UBvpWFXStFu/Hz+M+HPdRQO7hNO69SGEOozRDTl4rdf4w1vua
+pGnXYamfA+3RkiErGq2xq95J+E3hKfiu4mptqY1/2I+X+9odseEw8zkIhsNNkrn1
+PT7Ud91a3R3cQOqBdrMKzlWcRGExKkzyUgAsEI80rpmioPxIKlvt8UuIjlXjNG7j
+uWUae7iaQl3Lzf0qa2hhEP5TQRwlzFSZCz1DoCHYkiQsO1brKJA=
+=ArTR
+-----END PGP SIGNATURE-----
