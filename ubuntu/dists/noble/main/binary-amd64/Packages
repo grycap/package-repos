@@ -118,6 +118,26 @@ Homepage: http://slurm.schedmd.com
 Description: Slurm Workload Manager client commands.
  This package contains the Slurm client commands (excluding sview).
 
+Package: slurm-smd-client
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 2056
+Depends: libc6 (>= 2.38), libhdf5-103-1t64, libhdf5-hl-100t64, liblua5.3-0, liblz4-1 (>= 0.0~r130), libreadline8t64 (>= 6.0), slurm-smd (= 25.11.8-1), munge, bash-completion
+Conflicts: slurm-client, slurm-client-emulator
+Filename: dists/noble/main/binary-amd64/slurm-smd-client_25.11.8-1_amd64.deb
+Size: 759710
+MD5sum: 3c15f4b3e1b204bc74524044cc9db25e
+SHA1: 1222a542d16de3006164e29a7bfd6ae3e60cb19f
+SHA256: eb910444f9d28f8bba1b560602349d17162490e18d02361c4ffd7f29e3a3f7e1
+SHA512: d5224d5f2c2281ffef666cb8183299a77c318bc4e393bfa7ed0e46db9e4528cf1e849b14705ff83b86b7fd1bca4ff2d3ce4b5adf45c90e7ec4216423b41d04bd
+Homepage: http://slurm.schedmd.com
+Description: Slurm Workload Manager client commands.
+ This package contains the Slurm client commands (excluding sview).
+
 Package: slurm-smd-dev
 Architecture: amd64
 Version: 23.11.11-1
@@ -238,6 +258,26 @@ Homepage: http://slurm.schedmd.com
 Description: Development package for Slurm-smd.
  This package includes the header files and static libraries for the Slurm API.
 
+Package: slurm-smd-dev
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 90169
+Depends: slurm-smd (= 25.11.8-1), munge
+Conflicts: libslurm-dev, slurm-wlm-basic-plugins-dev, slurm-wlm-elasticsearch-plugin-dev, slurm-wlm-hdf5-plugin-dev, slurm-wlm-influxdb-plugin-dev, slurm-wlm-ipmi-plugins-dev, slurm-wlm-jwt-plugin-dev, slurm-wlm-mysql-plugin-dev, slurm-wlm-plugins-dev, slurm-wlm-rrd-plugin-dev, slurm-wlm-rsmi-plugin-dev
+Filename: dists/noble/main/binary-amd64/slurm-smd-dev_25.11.8-1_amd64.deb
+Size: 25227556
+MD5sum: 1a1d8fe26db17d340baf460c8a1bfc9b
+SHA1: 1403138ab3c5756cdeb22bb519c9c06fb67cb0a2
+SHA256: d3060759949a1155d87b1db76d0288c08b17aded27e076e0a7a74c1a1a5d15af
+SHA512: f6c7a7da8f5d34fa11a61378e6ca9927608b016dc8e562a9b5bfe5ba9e5f0ce109b06fab18a295c30525942a8cb6c2352b537904bd0ff5123067fa798fb60c60
+Homepage: http://slurm.schedmd.com
+Description: Development package for Slurm-smd.
+ This package includes the header files and static libraries for the Slurm API.
+
 Package: slurm-smd-doc
 Architecture: all
 Version: 23.11.11-1
@@ -348,6 +388,25 @@ MD5sum: 172fc61616139ca2a47867574642b7c3
 SHA1: c7fe878d16eb6e0e7dc0c2861c381fa823c72541
 SHA256: 4d88d613e24dec220b0aceef43648dedbe09835ad003389acc53b2f30c1251e3
 SHA512: 28f8174572f145d14627d38bdc648013224cca8d1a2958a94009ce84e595bedd6fd6ce2bf43b304c8449a6aab6240f65e07a7ce5df26e7f11c61b8b5f67fc1d5
+Homepage: http://slurm.schedmd.com
+Description: Slurm HTML documentation
+ This package contains the Slurm html documentation.
+
+Package: slurm-smd-doc
+Architecture: all
+Version: 25.11.8-1
+Priority: optional
+Section: doc
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 8150
+Conflicts: slurm-wlm-doc
+Filename: dists/noble/main/binary-amd64/slurm-smd-doc_25.11.8-1_all.deb
+Size: 1933678
+MD5sum: 1c3bebacbf71665af24917e9b00ec9bb
+SHA1: e308cbc238118e1c3c01702e4ff4c7d251656359
+SHA256: 3ab64928875e006d657f12ddc46068b6da8039229fca614095161d07b19c6cb5
+SHA512: df77e79b0aa78488210d589b94dac611eb25c30052c7e864cac3fd16b545265b59fd451a548f96a64002193cc0ca732782ca9f7043634427f3868c3a2e354ada
 Homepage: http://slurm.schedmd.com
 Description: Slurm HTML documentation
  This package contains the Slurm html documentation.
@@ -467,6 +526,26 @@ MD5sum: f62bd0482e89bcdf66eb0ab75bf2fc39
 SHA1: 634d1acf2f9e50d9be953a2267a5d666ae7930bd
 SHA256: dcfe90a7f8ff6579e67489b2760ca739136e68908fa186a55549c333ee6a9130
 SHA512: 7731b28cc7f2357389ae009783d8632b2e6b57dffec39671c208a7e06b1c0869f3b231c19348d4873d211479ca1406a53d6150ad2e3e58139895ffc09192ea7a
+Homepage: http://slurm.schedmd.com
+Description: Slurm NSS plugin
+  This plugin can permit passwd, group, and cloud node host resolution for a job
+  to be serviced through the local slurmstepd process.
+
+Package: slurm-smd-libnss-slurm
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 36
+Depends: libc6 (>= 2.38), slurm-smd (>= 25.11.8)
+Filename: dists/noble/main/binary-amd64/slurm-smd-libnss-slurm_25.11.8-1_amd64.deb
+Size: 8202
+MD5sum: 6f8791597ffec696b9569a7e8a4a548d
+SHA1: 2d50ecea87b85bc2eb3f1fc5361930b6b7d27f20
+SHA256: 6a4b2db32ba1ff5968c60d52fae5b114a52000888bdffdeafa0285155b4aaeda
+SHA512: ca1680047a1ea905613fec8a05805d1c2195074e351d7867c20dfe3cc0600141fbc25d8123457db07c921184a42c9f4dcc74fc7c717dab8b6a68a837cb189955
 Homepage: http://slurm.schedmd.com
 Description: Slurm NSS plugin
   This plugin can permit passwd, group, and cloud node host resolution for a job
@@ -610,6 +689,29 @@ Description: Slurm's pam_slurm_adopt module
   running on the node, or any user who has allocated resources on the node
   according to the Slurm
 
+Package: slurm-smd-libpam-slurm-adopt
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 46
+Depends: libc6 (>= 2.38), slurm-smd (>= 25.11.8)
+Conflicts: libpam-slurm-adopt
+Filename: dists/noble/main/binary-amd64/slurm-smd-libpam-slurm-adopt_25.11.8-1_amd64.deb
+Size: 12380
+MD5sum: ad694e9c7ddbc594a38b19abe3042623
+SHA1: d0a80f28af585f13bbdb1dab082b14f1f7590d38
+SHA256: acaac4471d6986bbf8f4db219770d90826c6c6fb29ea5838bc0bfaae5b527ef8
+SHA512: fad92693a49f549f63d837e97ce0af3d4d00c6b7340f76b654767bdc51023c41de3a59c9edb6894bf693eea92f87d2f5a196f4e9011611306fd41d70bb0a3541
+Homepage: http://slurm.schedmd.com
+Description: Slurm's pam_slurm_adopt module
+  This module restricts access to compute nodes in a cluster where Slurm is in
+  use.  Access is granted to root, any user with an Slurm-launched job currently
+  running on the node, or any user who has allocated resources on the node
+  according to the Slurm
+
 Package: slurm-smd-libpmi0
 Architecture: amd64
 Version: 23.11.11-1
@@ -720,6 +822,25 @@ MD5sum: 380d7d33a45a966a7cb00dfb7a25101d
 SHA1: c0a3b627d75a6b925f117ac891c7d99e20477d9e
 SHA256: 16d8b18180677fd10044371a0ea4ff358c37da0648d31e233ed8c6ac2f240779
 SHA512: c9402c3220cd5e9c6ca7ef19b587a348d8ba7d5e328ca88f27839c63d605246008b9336ecc6b8b115d3cb4f7fbbdfb9d8e9eec3ea041de294de7732a26f2419a
+Homepage: http://slurm.schedmd.com
+Description: Slurm PMI library implementation
+  The Slurm PMI library.
+
+Package: slurm-smd-libpmi0
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: libs
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 45
+Depends: slurm-smd (= 25.11.8-1), libc6 (>= 2.38)
+Filename: dists/noble/main/binary-amd64/slurm-smd-libpmi0_25.11.8-1_amd64.deb
+Size: 13226
+MD5sum: df304be9d17fd33d9b844a46605d22bb
+SHA1: dfffb41437a9cb91eded759e3b9e33dd9e4b9221
+SHA256: 4a00650a09c1b284bc3e7bcd627a16b6410d26f3ce51aa81348059175ded9741
+SHA512: bf7f362c17ea7deafb5ca897def9577cece0e0598ef17720a0573b4dea32df8472c6e247025345f890897f2c73f78b83ad815825eed493b55aff64d0fcf602e6
 Homepage: http://slurm.schedmd.com
 Description: Slurm PMI library implementation
   The Slurm PMI library.
@@ -839,6 +960,26 @@ MD5sum: dc8a3e934ddd3266ebd696cd27cbac94
 SHA1: cc8c83047a6155ca1f97c0cd7ffdd916a6241966
 SHA256: 4590a98055ce9ad6ed11d648b2b1ad648636ead10bd494d5f26cc038d32891bf
 SHA512: b01e747ab62b50995a31b06e932f66b8f93a413f27334fbe6592001753a774e2cd470e5c712e5d53ffb56d06a57e9c22a28732fe70ee9fdd1a7176ea3618acd7
+Homepage: http://slurm.schedmd.com
+Description: Slurm PMI2 library implementation
+  The Slurm PMI2 library.  For systems using Slurm, this version is preferred
+  over the compatibility libraries shipped by the PMIx project.
+
+Package: slurm-smd-libpmi2-0
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: libs
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 57
+Depends: slurm-smd (= 25.11.8-1), libc6 (>= 2.14)
+Filename: dists/noble/main/binary-amd64/slurm-smd-libpmi2-0_25.11.8-1_amd64.deb
+Size: 16904
+MD5sum: 7a03faf6abb7d213c51533d4ce6eec58
+SHA1: a3bb21962593544e7f91fe554eecbfe96352b389
+SHA256: cff8a6e38c980ba4dc479b8d254c436c8882dad747ce466d23dfda43153bd03c
+SHA512: 879903e90085ff133335929258d39a47b2b6582cd6ac0cef34f1569275f5c5b74eae4e96f49205f8181229fd7aad1551ea8f367764903161bd20053385b5025e
 Homepage: http://slurm.schedmd.com
 Description: Slurm PMI2 library implementation
   The Slurm PMI2 library.  For systems using Slurm, this version is preferred
@@ -970,6 +1111,27 @@ Description: Perl API for Slurm
   This package includes the perl API to provide a helpful interface to Slurm
   through Perl
 
+Package: slurm-smd-libslurm-perl
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: perl
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 511
+Depends: libc6 (>= 2.34), slurm-smd (>= 25.11.8)
+Conflicts: libslurmdb-perl
+Filename: dists/noble/main/binary-amd64/slurm-smd-libslurm-perl_25.11.8-1_amd64.deb
+Size: 137720
+MD5sum: f01cb7d7e93bd630b698e3de9347c363
+SHA1: 6b29e3e26590f883087eb9fd426df1979b65d31f
+SHA256: 1a497627b744e737a37649eb9c31a5770c98d45c4b1b6c032460a49c6a5e31f6
+SHA512: 36c1bf79fcceb25f69b5c01c82e4380e9ee65930863604764d164fc880e24a17d6c8b5f307759939cadf346a7fe98f7c58ac26037047a744c2c8d1e241e4ce1e
+Homepage: http://slurm.schedmd.com
+Description: Perl API for Slurm
+  This package includes the perl API to provide a helpful interface to Slurm
+  through Perl
+
 Package: slurm-smd-openlava
 Architecture: all
 Version: 23.11.11-1
@@ -1080,6 +1242,25 @@ MD5sum: be2f3b7f8fac673aa2a451481fa3c963
 SHA1: 2e262229f1aef7b8746c6b1d5c4b78ae4267de5d
 SHA256: 3f21b3aef3026109099dc8454b49d94a0ff844acecd464834b9eaf9b8dd12ff0
 SHA512: 5fd66975f96baa979256c6aecdc2ea1f8dd8b483603dcb5bfa5ba724647aec13b2b9430e4d5f1e5a70257add3b8133bf9fdc41abc26f5e36db042f5e984249e8
+Homepage: http://slurm.schedmd.com
+Description: OpenLava compatibility wrappers for Slurm
+  OpenLava wrapper scripts used for helping migrate from OpenLava/LFS to Slurm
+
+Package: slurm-smd-openlava
+Architecture: all
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 36
+Depends: slurm-smd (>= 25.11.8-1), slurm-smd-libslurm-perl (>= 25.11.8-1), libswitch-perl, perl:any
+Filename: dists/noble/main/binary-amd64/slurm-smd-openlava_25.11.8-1_all.deb
+Size: 8590
+MD5sum: fa7607d7b705e4d636351e2d9b9a26db
+SHA1: d8ae095bfa34a4e1d28b937c19bac09f71009c88
+SHA256: 1c0eb3428e2e7b72d78b50529bc327f829f6ed509abb0142e70340b908fd1579
+SHA512: 316d67b392228831f9aa295889a175bde497202505a64f846a97a302d1994a1917d1528fea0d76b6de3a69aeb8f68afbc0ae1851284f450a0cae5da22e9e0fd3
 Homepage: http://slurm.schedmd.com
 Description: OpenLava compatibility wrappers for Slurm
   OpenLava wrapper scripts used for helping migrate from OpenLava/LFS to Slurm
@@ -1199,6 +1380,26 @@ MD5sum: f48c5a2572009cf9d7cba7a4929fd50a
 SHA1: 82d6dbb8e29155dbda2f9a1e8cc807568590317a
 SHA256: 57cffa154ca55e793f4c91c3f4e95879fca5dc256cbb330abb9db16f0ff97af4
 SHA512: 8ce45919675705a5ee127547e567ad56b18fcb5751e9acd885c034d2bf75351a0ae0b6b3e47b0b7b196879aede71fe04098703a6e280117d509ca3efae6f0df9
+Homepage: http://slurm.schedmd.com
+Description: Slurm authentication daemon.
+ Used on login nodes that are not running slurmd daemons to allow authentication
+ to the cluster.
+
+Package: slurm-smd-sackd
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 52
+Depends: slurm-smd (= 25.11.8-1), libc6 (>= 2.34)
+Filename: dists/noble/main/binary-amd64/slurm-smd-sackd_25.11.8-1_amd64.deb
+Size: 15718
+MD5sum: da8875a6a01e6c08225880ab5f203247
+SHA1: 0b7b4467eb84dc4d89a493e8bd00435934306af8
+SHA256: 660c8177960a26ffcabd688af8d7e52aaa0da15993f8b2f9224ba1f66cae6998
+SHA512: a4b051b4c0e587129fb709feb8c308428e9ae64be4ea190e77fa6d06bce94ee6562b656a463418f50d8d0b9e87f4e6714fc4f00dfa1ab269d351f127db1456d5
 Homepage: http://slurm.schedmd.com
 Description: Slurm authentication daemon.
  Used on login nodes that are not running slurmd daemons to allow authentication
@@ -1330,6 +1531,27 @@ Description: Slurm controller daemon.
  Used to manage the job queue, schedule jobs, and dispatch RPC messages to the
  slurmd processon the compute nodes to launch jobs.
 
+Package: slurm-smd-slurmctld
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 1334
+Depends: libc6 (>= 2.38), slurm-smd (= 25.11.8-1), munge
+Conflicts: slurmctld
+Filename: dists/noble/main/binary-amd64/slurm-smd-slurmctld_25.11.8-1_amd64.deb
+Size: 541702
+MD5sum: 8ef0f2fc38cc1330b47ee488e8286daf
+SHA1: de16bef66a9e524b42b5ac46d3a4fd8cee927a0a
+SHA256: 3d666a996378d13ba6f6ca05e3b79e13624da0b86ff2c4b82b075071069391b8
+SHA512: aa9c45df82b8bb40e114b250e620a265699724314d6e99a054482ddb520981356be05eda58d271237b0f38125adb331930fafdb0142e4d350ff16d5bcca2f3e0
+Homepage: http://slurm.schedmd.com
+Description: Slurm controller daemon.
+ Used to manage the job queue, schedule jobs, and dispatch RPC messages to the
+ slurmd processon the compute nodes to launch jobs.
+
 Package: slurm-smd-slurmd
 Architecture: amd64
 Version: 23.11.11-1
@@ -1446,6 +1668,26 @@ MD5sum: 03a916ee7d2e27eac2c23d7331a097c4
 SHA1: 289ad3d268f064d35f64a7ae755202a6d4c7a50f
 SHA256: 9c21ffca54948822c507a8457d707b3254fa64d2db8df1ad46967c78afb1da95
 SHA512: fec45d1a75ae2a8a1ad563a774e3eeebcd93f8c646876288fa402140d064e6866dcc34319537886f636d9cff414ad93c881d8082e3b4ea424eaa30594c8213ca
+Homepage: http://slurm.schedmd.com
+Description: Slurm compute node daemon
+  Used to launch jobs on compute nodes.
+
+Package: slurm-smd-slurmd
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 683
+Depends: libc6 (>= 2.38), libhwloc15 (>= 2.10.0), liblz4-1 (>= 0.0~r130), libnuma1 (>= 2.0.11), libpam0g (>= 0.99.7.1), slurm-smd (= 25.11.8-1), munge
+Conflicts: slurmd
+Filename: dists/noble/main/binary-amd64/slurm-smd-slurmd_25.11.8-1_amd64.deb
+Size: 249824
+MD5sum: 1f5e4e9ea7daafef1cd9049effdf2d38
+SHA1: 01bd7c6d43cc53fa11420918513d19c675552845
+SHA256: d903e2e891bbdaed465483cf9d54221aff8148720c6c5c4bd2b9832fe0e0a7d7
+SHA512: e89b86ebb747888deb9f3d7ceee73475be8bd6170fae810dd7490e8ca6cea9bca3c834c9c3593563d9a35ac1df6041e07d8277db1f7e8768a443260a2ddbdd19
 Homepage: http://slurm.schedmd.com
 Description: Slurm compute node daemon
   Used to launch jobs on compute nodes.
@@ -1576,6 +1818,27 @@ Description: Slurm database daemon.
  Used to accept and process database RPCs and upload database changes to
  slurmctld daemons on each cluster.
 
+Package: slurm-smd-slurmdbd
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 147
+Depends: libc6 (>= 2.34), slurm-smd (= 25.11.8-1), munge
+Conflicts: slurmdbd
+Filename: dists/noble/main/binary-amd64/slurm-smd-slurmdbd_25.11.8-1_amd64.deb
+Size: 49786
+MD5sum: 56c779a9231659b70418347f9fe8c41c
+SHA1: d22aa3862fcc141d5d3fb3903764ac6e3036005c
+SHA256: dbfb26fd0b86716eb0711230a659d1c4853bc24a6a3180ec11a4ecd257e1db7a
+SHA512: d30c9f8e80fd0a5d80f7ed414ebdb939a73b9b8b5f1e479223bd83c0e1b556207dbef88199a5af004eae5787bf8d7e9755d0e683596bcdf6a6e03a6216d020ac
+Homepage: http://slurm.schedmd.com
+Description: Slurm database daemon.
+ Used to accept and process database RPCs and upload database changes to
+ slurmctld daemons on each cluster.
+
 Package: slurm-smd-slurmrestd
 Architecture: amd64
 Version: 23.11.11-1
@@ -1692,6 +1955,26 @@ MD5sum: df9c8c3b3f4155fd360cbc5caa58f33e
 SHA1: caf793d18547fa0810d7cd37966eae3b1f9a6d1e
 SHA256: 611c245860fae8e5de61c4193b4366eed36e388fcc6f8e9866067d7fc6a11763
 SHA512: a33ad4e8f375833c3221c8cd4d2731ecfd66717e8b757a91ff74fd1613267fc63c21f217c293aeff68f52a597998861d480cad7abcf4b301e823e19b8e2e66fa
+Homepage: http://slurm.schedmd.com
+Description: Slurm REST API daemon
+ Provides a REST interface to Slurm using the REST API daemon slurmrestd.
+
+Package: slurm-smd-slurmrestd
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 106
+Depends: slurm-smd (= 25.11.8-1), libc6 (>= 2.38)
+Conflicts: slurmrestd
+Filename: dists/noble/main/binary-amd64/slurm-smd-slurmrestd_25.11.8-1_amd64.deb
+Size: 38868
+MD5sum: 156fa338b44a2159bf945c0feb83c24a
+SHA1: af0e4f6fb36ef177996a6dc84adde338e4b9749a
+SHA256: d304f9203cea9d377cd910a44f151ae2347afb384015e4d359b3059d9e0e0879
+SHA512: ece631d5c8dcb92ff77eea5fa5923d8e01c71f018d3747e157da5d2b62cca6890986e9d8bce38a8844ffc893f4cc180220551234ee5e5eb9cc8b106af3f9a531
 Homepage: http://slurm.schedmd.com
 Description: Slurm REST API daemon
  Provides a REST interface to Slurm using the REST API daemon slurmrestd.
@@ -1828,6 +2111,28 @@ Description: GUI to view or modify Slurm state information.
  and partition state information.  Can be used to modify some information by
  authorized users.
 
+Package: slurm-smd-sview
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 340
+Depends: slurm-smd (= 25.11.8-1), libc6 (>= 2.38), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.32.0), libgtk2.0-0t64 (>= 2.18.0)
+Conflicts: sview
+Filename: dists/noble/main/binary-amd64/slurm-smd-sview_25.11.8-1_amd64.deb
+Size: 111462
+MD5sum: 1e17c93adbf3f9f087f14db1841e8691
+SHA1: 10b0389624054c2483b0256f0afc711e30da64cb
+SHA256: 886768580a352954db1e32b9a76a954f9e468755103cdab8f99597ee985b417a
+SHA512: d8481c6ea65711f157f858221cb6d9c9e59679f49d1e873a1bee7b5804ec77d207928415ff45fb421b19b23954e4b0033c815ec5f54f7fd071d6a0e8ec7cbf5f
+Homepage: http://slurm.schedmd.com
+Description: GUI to view or modify Slurm state information.
+ This package contains sview, a GUI for viewing Slurm configuration, job, node,
+ and partition state information.  Can be used to modify some information by
+ authorized users.
+
 Package: slurm-smd-torque
 Architecture: all
 Version: 23.11.11-1
@@ -1944,6 +2249,26 @@ MD5sum: be746b374a8a08307c8154e6ad910472
 SHA1: 4b37500064127c1c3eca6d7c3f64b2d806b4961f
 SHA256: f78ac57379dd793f068a69287a9041f76c7ff28e687b203343aca14d63ba99db
 SHA512: 688ead384b612db8b0c266f4c8f16671df6d66c621a850a5005c13a33103888582b2e6fbfa14512098058f6d6482d3c9debf5bc796528879c247b93e44f96974
+Homepage: http://slurm.schedmd.com
+Description: Torque compatibility wrappers for Slurm
+  Torque wrapper scripts used for helping migrate from Torque/PBS to Slurm
+
+Package: slurm-smd-torque
+Architecture: all
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Source: slurm-smd
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 143
+Depends: slurm-smd (>= 25.11.8-1), slurm-smd-libslurm-perl (>= 25.11.8-1), libswitch-perl, libc6 (>= 2.34), perl:any
+Conflicts: gridengine-client, torque-client, torque-client-x11
+Filename: dists/noble/main/binary-amd64/slurm-smd-torque_25.11.8-1_all.deb
+Size: 28154
+MD5sum: 0a354f71ccf6fb3b2e2fcbfb9fd9fdad
+SHA1: 7ac8ab7251e5123507b8a4322ad8c6e2d3fd29ed
+SHA256: 85a72353c55f920c82ea017053764a591b9c87cc3e42c9c0ca060705f4c74194
+SHA512: 5494afcbadd847a0a1570eb794ac9cadc5931d249e937eddf5efb263004827e4f892f202ed679e374fd9aac4c0aa803cde345385e82dc5a694bbea656986507b
 Homepage: http://slurm.schedmd.com
 Description: Torque compatibility wrappers for Slurm
   Torque wrapper scripts used for helping migrate from Torque/PBS to Slurm
@@ -2073,6 +2398,28 @@ MD5sum: d19063a43d29fb80d41c711d8d7b8862
 SHA1: 958dc2182976495ffdbdc16b1f18c36fbce1e9ab
 SHA256: d5f0073d91f6a7d4964bfb00491434988c015e2e836bceac071ac498979dd3ba
 SHA512: 4c5987183b89701b3729844ddf4276e49bf51c63b400295d07970e2b166600a6e3607b8dda60882639ec804c6c736de8565f9dcb5949942604cbd93dde48bbc7
+Homepage: http://slurm.schedmd.com
+Description: Slurm Workload Manager
+ Slurm is an open source, fault-tolerant, and highly scalable
+ cluster management and job scheduling system for Linux clusters.
+ Components include machine status, partition management,
+ job management, scheduling and accounting modules.
+
+Package: slurm-smd
+Architecture: amd64
+Version: 25.11.8-1
+Priority: optional
+Section: admin
+Maintainer: SchedMD Support <support@schedmd.com>
+Installed-Size: 13291
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libdbus-1-3 (>= 1.11.16+really1.11.16), libfreeipmi17 (>= 1.4.4), libhdf5-103-1t64, libhdf5-hl-100t64, libhttp-parser2.9 (>= 2.7.1), libipmimonitoring6 (>= 1.1.5), libjson-c5 (>= 0.15), libjwt2 (>= 1.10.1), liblua5.3-0, libmariadb3 (>= 3.0.0), libmunge2 (>= 0.5.8), libnuma1 (>= 2.0.11), librdkafka1 (>= 1.2.1), libyaml-0-2, munge
+Conflicts: slurm-wlm, slurm-wlm-basic-plugins, slurm-wlm-elasticsearch-plugin, slurm-wlm-emulator, slurm-wlm-hdf5-plugin, slurm-wlm-influxdb-plugin, slurm-wlm-ipmi-plugins, slurm-wlm-jwt-plugin, slurm-wlm-mysql-plugin, slurm-wlm-plugins, slurm-wlm-rrd-plugin, slurm-wlm-rsmi-plugin
+Filename: dists/noble/main/binary-amd64/slurm-smd_25.11.8-1_amd64.deb
+Size: 2866726
+MD5sum: 5d0238611a82e0d0210dbd82923cbb9e
+SHA1: b03fa0b57fb46a70a81248490ec5d1f4db8af2db
+SHA256: 2f69688b0c6fa78558ffa595a71fb88961118a813ef906031142b8e76674ba60
+SHA512: 070b416d13ab068554cdbaf012d34e4a595b52b6c72a12a3d2c1dec4c23e1742c2379e180f66c78148f8015fd24b05f183ec071310193b50914ca4f3d7e9eea4
 Homepage: http://slurm.schedmd.com
 Description: Slurm Workload Manager
  Slurm is an open source, fault-tolerant, and highly scalable
